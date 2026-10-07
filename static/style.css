@@ -1,0 +1,190 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    /* Eco Habit Tracker background using your image */
+    background-image: linear-gradient(rgba(0, 32, 16, 0.55), rgba(0, 32, 16, 0.8)),
+                      url("/static/images/Eco Habit Tracker Background theme.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #1a202c;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #22543d !important;
+}
+
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.35);
+    border: none;
+    background: rgba(255, 255, 255, 0.94);
+}
+
+.card-header {
+    border-radius: 1rem 1rem 0 0 !important;
+    background: linear-gradient(135deg, #38a169, #2f855a);
+    color: #f0fff4;
+}
+
+.btn-primary {
+    background: #2f855a;
+    border-color: #276749;
+}
+
+.btn-primary:hover {
+    background: #276749;
+    border-color: #22543d;
+}
+
+.badge-eco {
+    background: #38a169;
+    color: #ffffff;
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.8rem;
+}
+
+.habit-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #234e52;
+}
+
+.co2-chip {
+    background: #edfdf4;
+    color: #22543d;
+    border-radius: 999px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+}
+
+/* Hero section styling */
+.hero-section {
+    color: #f0fff4;
+    padding: 3rem 0 2rem 0;
+}
+
+.hero-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.05rem;
+    max-width: 640px;
+}
+
+/* Auth forms */
+.form-card {
+    max-width: 480px;
+    margin: 2.5rem auto;
+}
+
+/* Auth pages (login/register) */
+.auth-page h2,
+.auth-page .form-label {
+    color: #f6e05e;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+    font-weight: 700;
+}
+
+.auth-page .form-control {
+    background: rgba(255, 255, 255, 0.97);
+    border-color: #f6e05e;
+}
+
+.auth-page .form-control:focus {
+    border-color: #ecc94b;
+    box-shadow: 0 0 0 0.2rem rgba(246, 224, 94, 0.35);
+}
+
+.auth-page .btn-primary {
+    background: #f6e05e;
+    border-color: #d69e2e;
+    color: #1a202c;
+    font-weight: 600;
+}
+
+.auth-page .btn-primary:hover {
+    background: #ecc94b;
+    border-color: #b7791f;
+    color: #1a202c;
+}
+
+/* Make hero titles stand out more on dark background */
+.hero-section .hero-title,
+.hero-section .hero-subtitle {
+    color: #fefcbf;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+}
+
+/* Dashboard "Your Habits" / "Badges" headings */
+.dashboard-section-title {
+    color: #fefcbf;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+    font-weight: 700;
+}
+
+/* Dashboard empty-state text ("No habits yet", "No badges yet") */
+.dashboard-empty-text {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+}
+
+/* Dashboard header title + total CO2 summary */
+.dashboard-page-title,
+.dashboard-page-summary {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+}
+
+.dashboard-page-title {
+    font-weight: 700;
+}
+
+/* Add Habit page */
+.add-habit-page h2,
+.add-habit-page .form-label {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+}
+
+/* Badges card inner text white for readability */
+.badge-card .card-title,
+.badge-card small,
+.badge-card .mt-2 small {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+}
+
+/* Habit detail page */
+.habit-detail-page h2,
+.habit-detail-page p,
+.habit-detail-page li,
+.habit-detail-page h4,
+.habit-detail-page strong {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+}
+
+/* Feed page title */
+.feed-title {
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.85);
+    font-weight: 700;
+}

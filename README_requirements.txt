@@ -1,0 +1,1 @@
+This project requires Flask, Flask-Login, SQLAlchemy and other dependencies. To run the app smoothly, please create a virtual environment and install packages from requirements.txt using 'pip install -r requirements.txt'. After installing, run 'python seed_db.py' and 'python app.py' to start the server.

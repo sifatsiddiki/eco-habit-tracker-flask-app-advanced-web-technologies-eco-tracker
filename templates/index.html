@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="hero-section mb-4">
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        <h1 class="hero-title mb-3">Track eco-friendly habits that actually stick.</h1>
+        <p class="hero-subtitle mb-4">
+          Eco Habit Tracker helps you build small daily actions that add up to real CO₂ savings.
+          Stay motivated with streaks, badges and a clear view of your impact.
+        </p>
+        <a href="{{ url_for('register') }}" class="btn btn-primary btn-lg me-2">Get started</a>
+        <a href="{{ url_for('login') }}" class="btn btn-outline-light btn-lg">I already have an account</a>
+      </div>
+    </div>
+  </section>
+
+  {{ super() }}
+{% endblock %}

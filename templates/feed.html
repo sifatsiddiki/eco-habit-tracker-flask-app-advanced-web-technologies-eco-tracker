@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="feed-title">Community Feed</h2>
+<ul class="list-group">
+  {% for it in items %}
+    <li class="list-group-item">{{ it.date }} - {{ it.user }} did "{{ it.habit_title }}"</li>
+  {% endfor %}
+</ul>
+{% endblock %}
